@@ -28,7 +28,7 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 logger = logging.getLogger(__name__)
 
-RTSP_URL            = os.getenv("RTSP_URL", "rtsp://admin1:admin123@192.168.8.46:554/stream1")
+RTSP_URL            = os.getenv("RTSP_URL", "rtsp://Raiiraii23:raiiraii23@192.168.8.55:554/stream1")
 NOISE_THRESHOLD_DB  = float(os.getenv("NOISE_THRESHOLD_DB", "99"))
 TRIGGER_DURATION_MS = int(os.getenv("TRIGGER_DURATION_MS", "500"))
 CAPTURE_DIR         = os.getenv("CAPTURE_DIR", "./captures")
