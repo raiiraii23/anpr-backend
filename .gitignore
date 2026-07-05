@@ -1,0 +1,60 @@
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.so
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+*.cover
+
+# AI Model weights (large binaries)
+*.pt
+*.pth
+*.onnx
+*.pb
+*.tflite
+*.weights
+
+# Captured violation images
+captures/
+
+# Database files
+*.db
+*.sqlite
+thesis.db
+
+# Audio / Temp test files
+*.wav
+test_rtsp.py
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and Tools
+.vscode/
+.idea/
+*.swp
+*.swo
+.claude/
+

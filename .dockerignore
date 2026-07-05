@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+captures/
+*.jpg
+*.jpeg
+*.png
